@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  height: 60px;
+  background-color: blue;
+  display: flex;
+  justify-content: center; 
+
+}
+
+header h1{
+
+
+}
+.answers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.answers button {
+  margin: 4px;
+  width: 47.5%;
+  height: 50px;
+  border: 1px solid gray;
+}
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
